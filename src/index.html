@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>TODO: Title</title>
+	<meta name="description" content="TODO: Description">
+	<meta name="author" content="TODO: Author">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/fontello.css"><!-- TODO: Remove if you don't need icons -->
+	<link rel="stylesheet" href="css/layout.css">
+
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+	<style>
+	hr.large {
+		border: none;
+		height: 8px;
+		background: #ebebeb;
+		margin: 0 0 50px;
+	}
+	.example-grid .column, .example-grid .columns {
+		background: #ddd;
+		height: 25px;
+		line-height: 25px;
+		margin-bottom: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #555;
+		font-size: 12px;
+		font-weight: bold;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+	</style>
+</head>
+<body>
+
+	<p class="old-browser">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
+
+	<div class="container" style="margin-top: 40px; margin-bottom: 40px;">
+		<section class="sixteen columns">
+			<header>
+				<h1>A Beautiful &amp; Simple Boilerplate for Responsive, Mobile-Friendly Development</h1>
+			</header>
+			<hr class="large" />
+			<article class="clearfix">
+				<h3>The Grid</h3>
+				<div class="example-grid">
+					<div class="sixteen columns alpha omega">Sixteen</div>
+
+					<div class="one column alpha">One</div>
+					<div class="fifteen columns omega">Fifteen</div>
+
+					<div class="two columns alpha">Two</div>
+					<div class="fourteen columns omega">Fourteen</div>
+
+					<div class="three columns alpha">Three</div>
+					<div class="thirteen columns omega">Thirteen</div>
+
+					<div class="four columns alpha">Four</div>
+					<div class="twelve columns omega">Twelve</div>
+
+					<div class="five columns alpha">Five</div>
+					<div class="eleven columns omega">Eleven</div>
+
+					<div class="six columns alpha">Six</div>
+					<div class="ten columns omega">Ten</div>
+
+					<div class="seven columns alpha">Seven</div>
+					<div class="nine columns omega">Nine</div>
+
+					<div class="eight columns alpha">Eight</div>
+					<div class="eight  columns omega">Eight</div>
+
+					<div class="nine columns alpha">Nine</div>
+					<div class="seven columns omega">Seven</div>
+
+					<div class="ten columns alpha">Ten</div>
+					<div class="six columns omega">Six</div>
+
+					<div class="eleven columns alpha">Eleven</div>
+					<div class="five columns omega">Five</div>
+
+					<div class="twelve columns alpha">Twelve</div>
+					<div class="four columns omega">Four</div>
+
+					<div class="thirteen columns alpha">Thirteen</div>
+					<div class="three columns omega">Three</div>
+
+					<div class="fourteen columns alpha">Fourteen</div>
+					<div class="two columns omega">Two</div>
+
+					<div class="fifteen columns alpha">Fifteen</div>
+					<div class="one column omega">One</div>
+
+					<div class="sixteen columns alpha omega">Sixteen</div>
+				</div>
+			</article>
+			<hr />
+			<article class="clearfix">
+				<h3>Typography</h3>
+				<p>The typography of Skeleton is designed to create a strong hierarchy with basic styles. The primary font is the classic Helvetica Neue, but the font stack can be easily changed with just a couple adjustments. Regular paragraphs are set at a 14px base with 21px line height.</p>
+				<div class="row">
+					<div class="seven columns alpha headings">
+						<h1>Heading &lt;h1&gt;</h1>
+						<h2>Heading &lt;h2&gt;</h2>
+						<h3>Heading &lt;h3&gt;</h3>
+						<h4>Heading &lt;h4&gt;</h4>
+						<h5>Heading &lt;h5&gt;</h5>
+						<h6>Heading &lt;h6&gt;</h6>
+					</div>
+					<div class="five columns omega">
+						<blockquote>
+							<p>This is a blockquote style example. It stands out, but is awesome</p>
+							<cite>Dave Gamache, Skeleton Creator</cite>
+						</blockquote>
+					</div>
+				</div>
+			</article>
+			<hr />
+			<article>
+				<h3>Buttons</h3>
+				<p>Buttons are intended for action and thus should have appropriate weight. The standard button is given that weight with a little bit of depth and a strong hover.</p>
+				<a class="button primary">Click Me For Primary Action</a>
+				<a class="button secondary">Click Me For Secondary Action</a>
+				<a class="button tertiary">Click Me For Tertiary Action</a>
+				<a class="button">Click Me For Default Action</a>
+			</article>
+			<hr />
+			<article>
+				<h3>Images &amp; Retina support</h3>
+				<p><img src="img/sample.png" alt="Sample Image"></p>
+			</article>
+			<hr />
+			<article class="clearfix">
+				<h3>Forms</h3>
+				<p>Forms can be one of the biggest pains for web developers, but just use these dead simple styles and you should be good to go. </p>
+				<div class="sixteen columns alpha">
+					<form>
+						<label for="regularInput">Regular Input</label>
+						<input type="text" id="regularInput" />
+						<label for="regularMediumInput">Regular Medium Input</label>
+						<input type="text" id="regularMediumInput" class="medium" />
+						<label for="regularLargeInput">Regular Large Input</label>
+						<input type="text" id="regularLargeInput" class="large" />
+						<label for="regularFullWidthInput">Regular Full Width Input</label>
+						<input type="text" id="regularFullWidthInput" class="full-width" />
+						<label for="regularTextarea">Regular Textarea</label>
+						<textarea id="regularTextarea"></textarea>
+						<label for="selectList">Select List</label>
+						<select id="selectList">
+							<option value="Option 1">Option 1</option>
+							<option value="Option 2">Option 2</option>
+							<option value="Option 3">Option 3</option>
+							<option value="Option 4">Option 4</option>
+						</select>
+						<fieldset>
+							<legend>Checkboxes</legend>
+							<label for="regularCheckbox" class="checkbox">
+								<input type="checkbox" id="regularCheckbox" value="checkbox 1" />
+								<span>Regular Checkbox</span>
+							</label>
+							<label for="secondRegularCheckbox" class="checkbox">
+								<input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
+								<span>Regular Checkbox</span>
+							</label>
+						</fieldset>
+						<fieldset>
+							<legend>Radio Buttons</legend>
+							<label for="regularRadio" class="radio">
+								<input type="radio" name="radios" id="regularRadio" value="radio 1" />
+								<span>Regular Radio</span>
+							</label>
+							<label for="secondRegularRadio" class="radio">
+								<input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
+								<span>Regular Radio</span>
+							</label>
+						</fieldset>
+						<button type="submit" class="button primary large">Submit Form</button>
+						<button type="reset" class="button medium">Reset Form</button>
+					</form>
+				</div>
+			</article>
+			<hr />
+			<article>
+				<h3>Icons</h3>
+				<p>For icons, just use <a href="http://fontello.com">fontello.com</a> to generate a font with the needed icons. For quick reference, a font with one icon (github <i class="icon-github"></i>) has been added.</p>
+			</article>
+			<hr />
+			<article>
+				<h3>Media Queries</h3>
+				<p>Skeleton uses a <strong>lot</strong> of media queries to serve the scalable grid, but also for the convenience of styling your site on different size screens. Skeleton's media queries are almost exclusively targeted at max and min widths rather than device sizes or orientations. The advantage of this is browsers and future mobile devices that don't map to exact set dimensions will still benefit from the styles. That being said, all of the queries were written to be optimal on Apple iOS devices. The built in media queries include:</p>
+				<ul class="square">
+					<li><strong>Bigger than or equal to 960</strong>: Bigger than or equal to the standard base grid</li>
+					<li><strong>Smaller than 960</strong>: Smaller than the standard base grid</li>
+					<li><strong>Tablet Portrait</strong>: Between 768px and 959px</li>
+					<li><strong>All Mobile Sizes</strong>: Less than 767px</li>
+					<li><strong>Just Mobile Landscape</strong>: Between 480px and 767px</li>
+					<li><strong>Just Mobile Portrait</strong>: Less than 479px</li>
+				</ul>
+			</article>
+		</section>
+	</div><!-- .container -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/conditionizr.js/2.2.0/conditionizr.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/lib/conditionizr-2.2.0.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/lib/jquery-2.0.2.min.js"><\/script>')</script>
+	<script src="js/lib/underscore.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
