@@ -55,7 +55,7 @@
 		<p class="old-browser">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<div class="container" style="margin-top: 40px">
+	<div class="container" style="margin-top: 40px; margin-bottom: 40px;">
 		<section class="sixteen columns">
 			<header>
 				<h1>A Beautiful &amp; Simple Boilerplate for Responsive, Mobile-Friendly Development</h1>
@@ -64,6 +64,8 @@
 			<article class="clearfix">
 				<h3>The Grid</h3>
 				<div class="example-grid">
+					<div class="sixteen columns alpha omega">Sixteen</div>
+
 					<div class="one column alpha">One</div>
 					<div class="fifteen columns omega">Fifteen</div>
 
@@ -108,6 +110,8 @@
 
 					<div class="fifteen columns alpha">Fifteen</div>
 					<div class="one column omega">One</div>
+
+					<div class="sixteen columns alpha omega">Sixteen</div>
 				</div>
 			</article>
 			<hr />
@@ -153,6 +157,12 @@
 					<form>
 						<label for="regularInput">Regular Input</label>
 						<input type="text" id="regularInput" />
+						<label for="regularMediumInput">Regular Medium Input</label>
+						<input type="text" id="regularMediumInput" class="medium" />
+						<label for="regularLargeInput">Regular Large Input</label>
+						<input type="text" id="regularLargeInput" class="large" />
+						<label for="regularFullWidthInput">Regular Full Width Input</label>
+						<input type="text" id="regularFullWidthInput" class="full-width" />
 						<label for="regularTextarea">Regular Textarea</label>
 						<textarea id="regularTextarea"></textarea>
 						<label for="selectList">Select List</label>
@@ -164,22 +174,22 @@
 						</select>
 						<fieldset>
 							<legend>Checkboxes</legend>
-							<label for="regularCheckbox">
+							<label for="regularCheckbox" class="checkbox">
 								<input type="checkbox" id="regularCheckbox" value="checkbox 1" />
 								<span>Regular Checkbox</span>
 							</label>
-							<label for="secondRegularCheckbox">
+							<label for="secondRegularCheckbox" class="checkbox">
 								<input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
 								<span>Regular Checkbox</span>
 							</label>
 						</fieldset>
 						<fieldset>
 							<legend>Radio Buttons</legend>
-							<label for="regularRadio">
+							<label for="regularRadio" class="radio">
 								<input type="radio" name="radios" id="regularRadio" value="radio 1" />
 								<span>Regular Radio</span>
 							</label>
-							<label for="secondRegularRadio">
+							<label for="secondRegularRadio" class="radio">
 								<input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
 								<span>Regular Radio</span>
 							</label>
@@ -210,6 +220,8 @@
 		</section>
 	</div><!-- .container -->
 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/conditionizr.js/2.2.0/conditionizr.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/lib/conditionizr-2.2.0.min.js"><\/script>')</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/lib/jquery-2.0.2.min.js"><\/script>')</script>
 	<script src="js/lib/underscore.min.js"></script>
