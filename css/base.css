@@ -331,6 +331,10 @@ legend span {
 	padding: 1em;
 	font-size: 1.2em;
 	text-align: center;
+	display: none;
+}
+.ie6 .old-browser, .ie7 .old-browser, .ie8 .old-browser, .ie9 .old-browser {
+	display: block;
 }
 .old-browser strong {
 	color: #FFF;

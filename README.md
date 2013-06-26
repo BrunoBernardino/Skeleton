@@ -4,17 +4,10 @@ Forked from the original https://github.com/dhgamache/Skeleton, this is just a v
 
 It has a few extra things like:
 
-* icon-font
-* retina-images support
-* different directory structures
-* jQuery + underscore in an example
-
-## TODOs
-
-I still want to:
-
-* Make the buttons slightly different (less contrast and bigger)
-* More default button size options
-* More default input size options
-* Use http://conditionizr.com/
-* Use percentages and ems instead of fixed px values
+* Icon-font
+* Retina-images support
+* Different directory structures
+* jQuery + underscore by default
+* Uses http://conditionizr.com/
+* More button options (colors and sizes)
+* More input sizes
