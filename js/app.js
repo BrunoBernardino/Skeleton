@@ -39,5 +39,29 @@
 
 			alert( 'Submitted' );
 		});
+
+		// Retina support
+		if ( $('html').hasClass('retina') ) {
+			$('img').each( function( index, element ) {
+				if ( ! $(element).attr('src') ) {
+					return false;
+				}
+
+				// Have the possibility for images to not have the script try and load a retina option
+				if ( $(element).hasClass('no-retina') ) {
+					return false;
+				}
+
+				var newImageSRC = $(element).attr( 'src' ).replace( /(.+)(\.\w{3,4})$/, "$1@2x$2" );
+
+				$.ajax({
+					url: newImageSRC,
+					type: "HEAD",
+					success: function() {
+						$(element).attr( 'src', newImageSRC );
+					}
+				});
+			});
+		}
 	});
 })( jQuery, _, conditionizr );
